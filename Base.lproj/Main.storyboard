@@ -105,6 +105,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CITY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcx-oU-MJg">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4a8-WG-eaV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.1058823529" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your city..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b9s-zT-bWu">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6W1-PY-jMg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COUNTRY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbK-1l-aDB">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Zy8-hL-qQ4"/>
@@ -137,22 +153,13 @@
                                     <constraint firstAttribute="height" constant="148" id="dRw-B9-yCv"/>
                                 </constraints>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CITY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcx-oU-MJg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsj-5q-lh0">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="4a8-WG-eaV"/>
+                                    <constraint firstAttribute="width" constant="225" id="2W0-23-Ae2"/>
+                                    <constraint firstAttribute="height" constant="45" id="NBa-Re-SRD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.1058823529" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your city..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b9s-zT-bWu">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="6W1-PY-jMg"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <state key="normal" image="buyNowBtn"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -192,6 +199,7 @@
                             <constraint firstItem="Eeq-s9-PYR" firstAttribute="top" secondItem="VXT-u5-wIw" secondAttribute="bottom" constant="8" id="kP4-2J-1ji"/>
                             <constraint firstItem="15j-JO-GD3" firstAttribute="leading" secondItem="agW-Ed-unj" secondAttribute="leading" id="lAK-0F-AH5"/>
                             <constraint firstItem="agW-Ed-unj" firstAttribute="leading" secondItem="Eeq-s9-PYR" secondAttribute="leading" id="nHv-ef-6kc"/>
+                            <constraint firstItem="nsj-5q-lh0" firstAttribute="top" secondItem="b9s-zT-bWu" secondAttribute="bottom" constant="8" id="oc6-y9-oH3"/>
                             <constraint firstItem="utG-au-tuS" firstAttribute="leading" secondItem="hbK-1l-aDB" secondAttribute="leading" id="osc-RF-clf"/>
                             <constraint firstItem="qcx-oU-MJg" firstAttribute="top" secondItem="utG-au-tuS" secondAttribute="bottom" constant="8" id="pd2-W6-cTZ"/>
                             <constraint firstItem="qcx-oU-MJg" firstAttribute="leading" secondItem="hbK-1l-aDB" secondAttribute="leading" id="qad-X2-gkt"/>
@@ -202,6 +210,7 @@
                             <constraint firstItem="95P-sy-vUg" firstAttribute="top" secondItem="JiQ-Wh-dff" secondAttribute="bottom" constant="10" id="vGr-18-fU7"/>
                             <constraint firstItem="IWB-KC-p0W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vwD-vF-FNg"/>
                             <constraint firstItem="Eeq-s9-PYR" firstAttribute="leading" secondItem="VXT-u5-wIw" secondAttribute="leading" id="xkK-QB-THm"/>
+                            <constraint firstItem="nsj-5q-lh0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yf4-ax-qZz"/>
                             <constraint firstItem="AW8-Dp-ZoF" firstAttribute="trailing" secondItem="gPN-Sa-o5K" secondAttribute="trailing" id="zTz-iL-fI5"/>
                         </constraints>
                     </view>
@@ -216,6 +225,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
     </resources>
 </document>
